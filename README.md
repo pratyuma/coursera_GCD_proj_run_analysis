@@ -1,9 +1,9 @@
-# coursera Getting and Cleaning data project: run_analysis
-Introduction
+# Coursera Getting and Cleaning data project: run_analysis
+## Introduction
 
 This repo contains the required files for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization.
 
-Project Description:
+## Project Description:
 
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
@@ -23,7 +23,8 @@ Create one R script called run_analysis.R that does the following.
 
 More explaination about project: https://drive.google.com/file/d/0B1r70tGT37UxYzhNQWdXS19CN1U/view
 
-Description of raw data: 
+
+## Description of raw data: 
 
 - 'README.txt' 
 
@@ -39,7 +40,8 @@ Description of raw data:
 
 - subject: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-y_test/y_train: activity performed by the subjects
+- y_test/y_train: activity performed by the subjects
 
-Codebook: 
+
+## Codebook: 
 The CodeBook.md file explains the transformations performed and the resulting data and variables.

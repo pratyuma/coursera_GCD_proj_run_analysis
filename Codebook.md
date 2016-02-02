@@ -1,9 +1,11 @@
-CodeBook for the tidy dataset
+# CodeBook for the tidy dataset
 
 The tidy_data.txt file contains the averages of every activity for every subject and every feature if that feature is a 'mean' or 'std' feature. (If the feature label contained 'mean' or 'std' then the feature was included in this tidy_data.txt output file.)
 
 
 Updates for the tidy set are given here. For original codebook please scroll down this file.
+
+## Feature Information
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 'time' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -11,7 +13,7 @@ ubsequently, the body linear acceleration and angular velocity were derived in t
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'freq' to indicate frequency domain signals). 
 
-These signals were used to estimate variables of the feature vector for each pattern:  
+###These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
@@ -32,12 +34,12 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
+###The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
 std(): Standard deviation
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+###Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 gravityMean
 tBodyAccMean
@@ -45,7 +47,7 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-The complete list of variables of each feature vector is as follows:
+##The complete list of variables of each feature vector is as follows:
 
 [1] "subject"                         "activity"                        "timebodyaccmeanx"               
  [4] "timebodyaccmeany"                "timebodyaccmeanz"                "timebodyaccstdx"                
@@ -81,9 +83,9 @@ The complete list of variables of each feature vector is as follows:
 ==============================================================================================================================
 
 
-Original codebook:
+#Original codebook:
 
-Feature Selection 
+##Feature Selection 
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
